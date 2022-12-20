@@ -1,10 +1,18 @@
 h1{
-    font-family: 'Jua', sans-serif;
-    font-size: 45px;
-    color: #8ac6d1;
+    border-bottom: solid black 1px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    color: #434242;
     text-align: center;
     margin: 0;
     padding: 10px;
+}
+.submit{
+    margin-left: 30px;
+}
+.blue{
+    display: inline;
+    color: #083AA9;
 }
 body{
     font-family: 'Jua', sans-serif;
@@ -12,17 +20,46 @@ body{
     max-width: 600px;
     text-align: center;
 }
+.btn-wrap{
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 550px;
+}
 button{
     font-family: 'Jua', sans-serif;
     font-family: 'Jua', sans-serif;
     border-radius: 20px;
+    width: 50px;
+    height: 50px;
     box-shadow: none;
     border: none;
+}
+button:hover{
+    background-color: #083AA9;
 }
 .inv{
     display: none;
 }
-.startBtn{
+#startBtn{
+    margin-top: 500px;
+    font-size: 25px;
     width: 200px;
     height: 100px;
+}
+.border{
+    padding: 20px;
+    display: inline-block;
+    border: solid black 1px;
+}
+input{
+    width: auto;
+    height: auto;
+}
+img{
+    margin: 10px;
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
 }
