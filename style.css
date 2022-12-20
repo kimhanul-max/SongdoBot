@@ -14,7 +14,15 @@ body{
 }
 button{
     font-family: 'Jua', sans-serif;
+    font-family: 'Jua', sans-serif;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
 }
 .inv{
     display: none;
+}
+.startBtn{
+    width: 200px;
+    height: 100px;
 }
