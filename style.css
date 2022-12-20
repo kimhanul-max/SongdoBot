@@ -1,0 +1,20 @@
+h1{
+    font-family: 'Jua', sans-serif;
+    font-size: 45px;
+    color: #8ac6d1;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+body{
+    font-family: 'Jua', sans-serif;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+button{
+    font-family: 'Jua', sans-serif;
+}
+.inv{
+    display: none;
+}
