@@ -7,8 +7,18 @@ h1{
     margin: 0;
     padding: 10px;
 }
+.important{
+    font-size: 20px;
+}
+h3{
+    font-size: 15px;
+}
+.robot{
+    height: 80px;
+    width: auto;
+}
 .submit{
-    margin-left: 30px;
+    width: 100px;
 }
 .blue{
     display: inline;
@@ -22,10 +32,8 @@ body{
 }
 .btn-wrap{
     margin: 0 auto;
-    left: 0;
-    right: 0;
     position: fixed;
-    top: 550px;
+    top: 40%;
 }
 button{
     font-family: 'Jua', sans-serif;
@@ -35,9 +43,6 @@ button{
     height: 50px;
     box-shadow: none;
     border: none;
-}
-button:hover{
-    background-color: #083AA9;
 }
 .inv{
     display: none;
@@ -62,4 +67,29 @@ img{
     height: 200px;
     width: auto;
     border-radius: 20px;
+}
+.credit{
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 95%;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.이전{
+    font-size: 40px;
+    position: fixed;
+    left: 0;
+    background-color: white;
+    color: black;
+}
+.다음{
+    font-size: 40px;
+    position: fixed;
+    right: 0;
+    background-color: white;
+    color: black;
 }

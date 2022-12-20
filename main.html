@@ -16,6 +16,7 @@
 </head>
     <body>
         <h1>송도봇과 <div class="blue">송도고</div> 여행</h1>
+        <img src="ai.png" class="robot">
         <div class="container">
             <div class="q1">
                 <h3>안녕~ 나는 송도고등학교 홍보 요정 송도봇이야~~</h3>
@@ -34,7 +35,7 @@
                 <h3>이 사진이 있는 곳으로 와줄래?</h3>
             </div>
             <div class="q4 inv">
-                
+                <img src="운동장.jpeg">
             </div>
             <div class="q5 inv">
                 <h3>도착했니?</h3>
@@ -47,8 +48,8 @@
                 <p>19<input type="text" placeholder="먼 X 람 + 라" style="width: 80px;" class="q5-1"/>.
                     <input type="text" placeholder="이 X 되" style="width: 50px;" class="q5-2"/>.
                     <input type="text" placeholder="이" style="width: 30px;" class="q5-3"/>
-                    <input type="text" placeholder="저" style="width: 30px" class="q5-4"/><button onclick="checkQ5()" class="submit">제출</button></p>
-                    <button onclick='alert("숫자는 각 글자의 획수이다.")' style="width:100px;">힌트보기</button>
+                    <input type="text" placeholder="저" style="width: 30px" class="q5-4"/><button onclick='alert("숫자는 각 글자의 획수이다.")' style="width:70px; margin-left: 10px;">힌트보기</button></p>
+                    <button onclick="checkQ5()" class="submit">정답제출</button>
             </div>
             <div class="q6 inv">
                 <h3>맞았어!! 근데 혹시 그 날이 무슨 날인줄 아니?</h3>
@@ -63,10 +64,39 @@
             <div class="q8 inv">
                 <h3>다음으로 이동하자고~ 아침마다 하는 발열체크 장소 주변에 아주 큰 액자가 있다고 하던데...찾아보자!</h3>
             </div>
+            <div class="q9 inv">
+                <img src="암호.jpeg" alt="북한 무전 도청을 통해 암호를 습득했다. 암호를 해독해야 해!">
+                <h3>북한 무전 도청을 통해 암호를 습득했다. 암호를 해독해야 해!</h3>
+                <h3>12 + 211 + 68</h3>
+                <input type="text" placeholder="답 입력"> 
+                <button onclick="checkQ9()" class="submit">정답제출</button>
+                <button onclick='alert("앞 숫자는 줄번호이고, 두 번째 숫자는 그 줄의 음절 번호이다.")' style="width:70px; margin-left: 10px;">힌트보기</button>
+            </div>
+            <div class="q10 inv">
+                <img src="윤영하소령님.jpeg" alt="나라를 위해 목숨 바치면서 자신의 임무를 잊지않은 당신을 우리도 잊지 않겠습니다.">
+                <h3>윤영하 소령(1973.11.24 ~ 2022.06.29)</h3>
+                <h3 class="important">'나라를 위해 목숨 바치면서까지 자신의 임무를 잊지않은 <div class="blue">당신을 우리도 잊지 않겠습니다.</div>'</h3>
+                <h3>2002년은 우리나라에서 월드컵이 개최된 해이기도 하지만,
+                    제2연평해전이 발발한 해야.
+                    제2연평해전에서 송도고의 영웅 윤영하 소령이 나라를 지키기 위해 북한군과 싸우다가 전사하셨지.</h3>
+                <h3 class="important blue">우리 모두 우리나라를 위해 돌아가신 윤영하 소령님과 호국영령들을 기리며 잠시 묵념하도록 하자.</h3>
+            </div>
+            <div class="q11 inv">
+                <h3>다시한번 우리와 우리나라를 위한 위대한 희생을 기리며, </h3>
+                 <h3> 이제 다음으로 넘어가자.</h3>
+                <h3>급식실 근처 엄청 거대한 알이 있다던데 찾아볼래?</h3>
+                <h3>그 알이 다음 위치로 가는 길을 안내해 줄거야</h3>
+            </div>
+            <div class="q12 inv">
+                
+            </div>
         </div>
         <div class="btn-wrap">
             <button class="이전"> < </button>
             <button class="다음" id="target_btn"> > </button>
+        </div>
+        <div class="credit">
+            <a href="https://www.flaticon.com/kr/free-icons" title="로봇 아이콘">로봇 아이콘  제작자: Freepik - Flaticon</a>
         </div>
     </body>
     <script src="code.js"></script>
