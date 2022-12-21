@@ -39,7 +39,7 @@ button{
     font-family: 'Jua', sans-serif;
     font-family: 'Jua', sans-serif;
     border-radius: 20px;
-    width: 50px;
+    width:  100px;
     height: 50px;
     box-shadow: none;
     border: none;
@@ -92,4 +92,10 @@ a{
     right: 0;
     background-color: white;
     color: black;
+}
+.이재유{
+    display: inline;
+}
+.이강복{
+    display: inline;
 }
