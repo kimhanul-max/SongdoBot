@@ -5,6 +5,14 @@ const q5_input = container[4].querySelectorAll("input");
 const q9_input = container[8].querySelector("input");
 const q12_input = container[11].querySelector("input");
 const q15_input = container[14].querySelector("input");
+const q17_input = container[16].querySelector("input");
+const q19_input = container[18].querySelector("input");
+const q22_input = container[21].querySelector("input");
+const q25_input = container[24].querySelector("input");
+const q26_input = container[25].querySelector("input");
+const q27_input = container[26].querySelector("input");
+const q28_input = container[27].querySelector("input");
+const q29_input = container[28].querySelector("input");
 i = 0;
 function getindex(params) {
     if (localStorage.getItem("index") > 0) {
@@ -14,7 +22,7 @@ function getindex(params) {
     }
 }
 function blockClick() {
-    if (i == 4 || i == 8 || i == 11) {
+    if (i == 4 || i == 8 || i == 11 || i == 14 || i == 16 || i == 18 || i == 21 || i == 24 || i == 25 || i == 26 || i == 27 || i == 28) {
         btnDisabled();
     }else{
         btnActive();
@@ -33,7 +41,6 @@ function leftBtn() {
     if (i > 0) {
         container[i].classList.add("inv");
         i -= 1;
-        localStorage.setItem("index", i);
         container[i].classList.remove("inv");
     }
     blockClick()

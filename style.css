@@ -80,17 +80,19 @@ a{
     color: gray;
 }
 .이전{
+    width: 45px;
+    background-color:transparent;
     font-size: 40px;
     position: fixed;
     left: 0;
-    background-color: white;
     color: black;
 }
 .다음{
+    width: 45px;
+    background-color:transparent;
     font-size: 40px;
     position: fixed;
     right: 0;
-    background-color: white;
     color: black;
 }
 .이재유{
