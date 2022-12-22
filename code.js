@@ -69,6 +69,10 @@ function btnActive()  {
         alert("다시 생각해봐!");
     }
   }
+function reTry() {
+    localStorage.removeItem("index");
+    window.location.href=window.location.href
+}
   getindex();
 blockClick();
 다음.addEventListener("click", rightBtn);
