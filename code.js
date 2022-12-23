@@ -1,6 +1,7 @@
 const container = document.querySelector(".container").children;
 const 이전 = document.querySelector(".이전");
 const 다음 = document.querySelector(".다음");
+const page = document.querySelector(".page");
 const q5_input = container[4].querySelectorAll("input");
 const q9_input = container[8].querySelector("input");
 const q12_input = container[11].querySelector("input");
@@ -15,6 +16,9 @@ const q27_input = container[26].querySelector("input");
 const q28_input = container[27].querySelector("input");
 const q29_input = container[28].querySelector("input");
 i = 0;
+function idPage() {
+    page.innerText = `${i + 1} / ${container.length}`
+}
 function getindex(params) {
     if (localStorage.getItem("index") > 0) {
         container[i].classList.add("inv");
@@ -35,6 +39,7 @@ function rightBtn() {
         i += 1;
         localStorage.setItem("index", i);
         container[i].classList.remove("inv");
+        idPage();
     }
     blockClick()
 }
@@ -43,6 +48,7 @@ function leftBtn() {
         container[i].classList.add("inv");
         i -= 1;
         container[i].classList.remove("inv");
+        idPage();
     }
     blockClick()
 }
@@ -76,5 +82,6 @@ function reTry() {
 }
   getindex();
 blockClick();
+idPage();
 다음.addEventListener("click", rightBtn);
 이전.addEventListener("click", leftBtn)

@@ -102,3 +102,10 @@ a{
 .이강복{
     display: inline;
 }
+.page{
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 90%;
+    font-size: 15px;
+}
