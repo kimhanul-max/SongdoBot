@@ -7,6 +7,7 @@ const q12_input = container[11].querySelector("input");
 const q15_input = container[14].querySelector("input");
 const q17_input = container[16].querySelector("input");
 const q19_input = container[18].querySelector("input");
+const q21_input = container[20].querySelector("input");
 const q22_input = container[21].querySelector("input");
 const q25_input = container[24].querySelector("input");
 const q26_input = container[25].querySelector("input");
@@ -22,7 +23,7 @@ function getindex(params) {
     }
 }
 function blockClick() {
-    if (i == 4 || i == 8 || i == 11 || i == 14 || i == 16 || i == 18 || i == 21 || i == 24 || i == 25 || i == 26 || i == 27 || i == 28) {
+    if (i == 4 || i == 8 || i == 11 || i == 14 || i == 16 || i == 18 || i == 20 ||i == 21 || i == 24 || i == 25 || i == 26 || i == 27) {
         btnDisabled();
     }else{
         btnActive();
