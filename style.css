@@ -81,6 +81,7 @@ a{
     color: gray;
 }
 .이전{
+    padding: 0;
     width: 45px;
     background-color:transparent;
     font-size: 40px;
@@ -89,6 +90,7 @@ a{
     color: black;
 }
 .다음{
+    padding: 0;
     width: 45px;
     background-color:transparent;
     font-size: 40px;
