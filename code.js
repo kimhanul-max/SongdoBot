@@ -47,6 +47,7 @@ function leftBtn() {
     if (i > 0) {
         container[i].classList.add("inv");
         i -= 1;
+        localStorage.setItem("index", i);
         container[i].classList.remove("inv");
         idPage();
     }
